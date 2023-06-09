@@ -31,6 +31,23 @@ I've built this on top of the chatGPT rephrasing example, and if you give a mini
 
 You should be able to get back an activity report like this:
 ```json
+[{
+    "date": "2023-05-01",
+    "summary": "Daily standup conversation held, Alex was reminded to fill in his timesheet before vacation."
+  }, {
+    "date": "2023-05-09",
+    "summary": "Marinel asked for volunteers to fill in Alex's tasks while on vacation, and Dani volunteered."
+  }, {
+    "date": "2023-05-12",
+    "summary": "Demo meeting was held, Dani finished preparing the demo, and sent the link to Marinel."
+  }, {
+    "date": "2023-05-13",
+    "summary": "Retro meeting was held, Demo went great and the team got the green light to implement additional features, Alex drew attention to the time constraints of achieving all of them."
+  }, {
+    "date": "2023-05-14",
+    "summary": "A commit was made that merged a pull request #1 from repo/branch."
+  }
+]
 ```
 
 TODO - Deploy your full-stack solution using [genezio](https://genez.io/). You can use [these examples](https://github.com/Genez-io/genezio-examples) as a starting point.
