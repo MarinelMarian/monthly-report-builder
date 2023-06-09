@@ -49,8 +49,8 @@ function App() {
                       <div className="msg-info-name">You</div>
                     </div>
 
-                    <div className="msg-text">
-                      {message.text}
+                    <div className="msg-text" title={message.text}>
+                      <pre>{JSON.stringify(JSON.parse(message.text), null, 2)}</pre>
                     </div>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ function App() {
                     </div>
 
                     <div className="msg-text">
-                      {message.text}
+                      <pre>{message.text}</pre>
                     </div>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ function App() {
           <textarea
             rows="10"
             className="msger-input"
-            placeholder="Enter your minified JSON here..."
+            placeholder="Enter your JSON here..."
             value={requestText}
             onChange={e => setRequestText(e.target.value)}
           ></textarea>
