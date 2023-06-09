@@ -1,0 +1,10 @@
+name: chatgpt-project
+region: us-east-1
+cloudProvider: aws
+sdk:
+  language: js
+  path: ./src/sdk/
+frontend:
+  path: ./build
+  subdomain: coral-creative-llama
+classes: []

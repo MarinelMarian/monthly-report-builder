@@ -50,5 +50,5 @@ You should be able to get back an activity report like this:
 ]
 ```
 
-TODO - Deploy your full-stack solution using [genezio](https://genez.io/). You can use [these examples](https://github.com/Genez-io/genezio-examples) as a starting point.
-TODO - Provide a link to your live app so we can test it out.
+The link to the live app so you can test it out:
+[coral-creative-llama.app.genez.io](https://coral-creative-llama.app.genez.io/)
