@@ -17,7 +17,8 @@ By using the data gathered from the:
 + monthly calendar (meetings) from Outlook
 + the history of all chat conversations (and calls) from Microsoft Teams 
 + the commits and PRs from AzureDevops 
-+ artifacts in Jira and Confluence
++ artifacts in Jira and Confluence 
+
 the raw data can be given to GPT to compile a monthly report of summarized activities broken down by days.
 
 
